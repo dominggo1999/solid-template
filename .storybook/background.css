@@ -1,0 +1,17 @@
+#storybook-root:not(.dark) {
+  /* replace color */
+  background-color: white !important;
+}
+
+#storybook-root.dark {
+  /* replace color */
+  background-color: #0d1117 !important;
+}
+
+#storybook-root {
+  min-height: 100vh !important;
+}
+
+body {
+  padding: 0 !important;
+}
